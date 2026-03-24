@@ -1,1 +1,1 @@
-# LucasMarbleCS4300
+- Assignment 1 [video](https://youtu.be/8ZTPDOLYDfw), [code](https://docs.google.com/document/d/1MxKajqBwofL77WiBUW0SujYb6koNzErgAjfg8rIuZGY/edit?usp=sharing)

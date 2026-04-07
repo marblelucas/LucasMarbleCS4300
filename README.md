@@ -1,2 +1,2 @@
 - Assignment 1 [video](https://youtu.be/8ZTPDOLYDfw), [code](https://docs.google.com/document/d/1MxKajqBwofL77WiBUW0SujYb6koNzErgAjfg8rIuZGY/edit?usp=sharing), [explanation](https://docs.google.com/document/d/1MbQjOYVdkzpXVN3DkkQP83aBVakk5C106jIQXN_4W8U/edit?usp=sharing)
-- Assignment 2 website(https://marblelucas.github.io/LucasMarbleCS4300/gulls-main/gulls/howtos/9_video_feedback/), [repo](https://github.com/marblelucas/LucasMarbleCS4300/tree/main/gulls-main/gulls/howtos/9_video_feedback), explanation
+- Assignment 2 [website](https://marblelucas.github.io/LucasMarbleCS4300/gulls-main/gulls/howtos/9_video_feedback/), [repo](https://github.com/marblelucas/LucasMarbleCS4300/tree/main/gulls-main/gulls/howtos/9_video_feedback), explanation

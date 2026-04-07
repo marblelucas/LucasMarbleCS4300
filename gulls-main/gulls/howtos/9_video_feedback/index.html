@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <script src='main.js' type='module'></script>
+    <script src='../loader.js'></script>
+
+    <script src='https://cdn.jsdelivr.net/npm/microlight@latest'></script>
+
+    <link href='../shared.css' rel='stylesheet'>
+    <link rel='shortcut icon' href='data:image/x-icon;,' type='image/x-icon'> 
+  </head>
+  <body>
+    <span id='buttons'>
+      <button>main.js</button>
+      <button>frag.wgsl</button>
+    </span>
+
+    <code class='code'></code>
+
+    <br>
+
+    <span id="controls">
+      <button id="noiseAnimation" type="button">Toggle Noise Animation</button>
+      <p>Noise Intensity</p>
+      <input type="range" min="0" max="1" value="0" step="0.01" id="intensity">
+      <p>Horizontal Shift</p>
+      <input type="range" min="0.01" max="3" value="0.33" step="0.01" id="shift">
+      <p>Vertical Inversion</p>
+      <input type="range" min="0.01" max="2" value="0.5" step="0.01" id="invert">
+    </span>
+
+    <canvas></canvas>
+
+    
+  </body>
+</html>

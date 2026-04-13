@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <script src='main.js' type='module'></script>
+
+    <!-- <link href='../shared.css' rel='stylesheet'> -->
+    <link rel='shortcut icon' href='data:image/x-icon;,' type='image/x-icon'> 
+  </head>
+  <body>
+
+    <span id="controls">
+      <p>Diffusion of A (Red)</p>
+      <input type="range" min="0" max="1" value="1" step="0.01" id="DA">
+      <p>Diffusion of B (Green)</p>
+      <input type="range" min="0" max="1" value="0.5" step="0.01" id="DB">
+      <p>Feed Rate</p>
+      <input type="range" min="0.01" max="0.1" value="0.055" step="0.001" id="f">
+      <p>Kill Rate</p>
+      <input type="range" min="0.01" max="0.1" value="0.062" step="0.001" id="k">
+      <p>Style Map Intensity</p>
+      <input type="range" min="0" max="1" value="0.0" step="0.01" id="map">
+
+    </span>
+
+    <canvas></canvas>
+  </body>
+</html>

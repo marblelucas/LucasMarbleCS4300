@@ -47,7 +47,7 @@ fn fs( input: VertexOutput ) -> @location(0) vec4f {;
     red = 0.7;
   }
   else {
-    blue = 0.4;
+    blue = 0.55;
   }
   if (length(input.uv) > 1.){
     discard;

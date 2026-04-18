@@ -4,7 +4,7 @@ const sg = await gulls.init(),
       render_shader  = await gulls.import( './render.wgsl' ),
       compute_shader = await gulls.import( './compute.wgsl' )
 
-const NUM_PARTICLES = 1024, 
+const NUM_PARTICLES = 2048, 
       NUM_PROPERTIES = 4, 
       state = new Float32Array( NUM_PARTICLES * NUM_PROPERTIES )
 

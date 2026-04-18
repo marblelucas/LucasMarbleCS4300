@@ -56,6 +56,5 @@ fn fs( input: VertexOutput ) -> @location(0) vec4f {;
   if (abs(input.uv.x) < 0.1 || abs(input.uv.y) < 0.1 || abs(input.uv.x) + 4*abs(input.uv.y) < 1. || 4*abs(input.uv.x) + abs(input.uv.y) < 1.){
     alpha = 0.2*(1. - length(input.uv));
   }
-//
   return vec4f( red, 0, blue , .4*(1. - length(input.uv)) + alpha);
 }
